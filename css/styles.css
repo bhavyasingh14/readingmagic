@@ -1,0 +1,196 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold"
+}
+
+
+p {
+  color: black;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons   */
+.buttons{
+  margin: auto;
+  margin-right: 10px;
+}
+
+/* Title Image */
+
+ .title-image {
+  width: 90%;
+  position: absolute;
+  left: 48rem;
+bottom: 0.8rem;
+}
+
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-heading{
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+/* Testomonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-heading{
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card{
+  background-color: powderblue;
+}
+
+
+/* Cta */
+
+#cta{
+  background-color: salmon;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+font-family: "Montserrat Black";
+font-size: 3.5rem;
+
+}
+
+.buttons {
+
+margin: 5% 3% 5% 0;
+
+}
+
+.shipping-update{
+
+font-size: 1.5rem;
+
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding: 5% 10%;
+}
+
+
+
+@media (max-width:1028px) {
+
+  #title{
+
+    color: white;
+    padding: 7% 15%;
+  }
+
+
+  .title-image{
+  position: static;
+  margin-top: 20px;
+  width: 60%;
+
+  }
+}
